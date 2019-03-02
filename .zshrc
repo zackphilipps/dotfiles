@@ -107,13 +107,9 @@ done;
 unset file;
 
 # Set Spaceship ZSH as a prompt
+SPACESHIP_PROMPT_DEFAULT_PREFIX='\n'
 autoload -U promptinit; promptinit
 prompt spaceship
 SPACESHIP_CHAR_SYMBOL='❯'
 SPACESHIP_CHAR_SUFFIX=' '
-# SPACESHIP_VI_MODE_SHOW=false
-SPACESHIP_PACKAGE_PREFIX='\n'
 SPACESHIP_GIT_PREFIX='\n'
-SPACESHIP_NODE_PREFIX='\n'
-# SPACESHIP_PACKAGE_SHOW=true
-# SPACESHIP_BATTERY_SHOW=false
