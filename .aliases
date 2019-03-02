@@ -152,9 +152,4 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # custom
 alias art="php artisan"
-
 alias dc="docker-compose"
-
-alias gpom="git push origin master"
-alias gpod="git push origin develop"
-alias clearbranches="git branch -a --merged remotes/origin/develop | grep -v develop | grep \"remotes/origin/\" | cut -d \"/\" -f 3- | xargs -n 1 git push --delete origin"

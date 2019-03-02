@@ -79,6 +79,12 @@
 		fi \
 	}; f"
 
+  pom = push origin master
+  pod = push origin develop
+
+  # clear branches
+  cb = "!git branch -a --merged remotes/origin/develop | grep -v develop | grep \"remotes/origin/\" | cut -d \"/\" -f 3- | xargs -n 1 git push --delete origin"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
