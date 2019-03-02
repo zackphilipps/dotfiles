@@ -106,6 +106,10 @@ for file in ~/.{path,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 # Set Spaceship ZSH as a prompt
 SPACESHIP_PROMPT_DEFAULT_PREFIX='\n'
 autoload -U promptinit; promptinit
