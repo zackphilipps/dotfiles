@@ -180,21 +180,6 @@ function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
 
-# the acronym stands for "subtree add"
-function sba() {
-  git subtree add --prefix $2 $1 master --squash
-}
-
-# the acronym stands for "subtree update"
-function sbu() {
-  git subtree pull --prefix $2 $1 master --squash
-}
-
-# the acronym stands for "subtree push"
-function sbp() {
-  git subtree push --prefix $2 $1 master
-}
-
 # Access Homestead Globally
 # https://laravel.com/docs/5.2/homestead#daily-usage
 function hs() {
