@@ -94,6 +94,11 @@
     git subtree push --prefix $2 $1 master \
   }; f"
 
+  # destroy tag
+  dt = "!f() { \
+    git tag -d ${1} && git push origin :refs/tags/${1}; \
+  }; f"
+
   pom = push origin master
   pod = push origin develop
 
