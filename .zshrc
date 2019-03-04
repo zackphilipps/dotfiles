@@ -110,6 +110,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+export IEVMS_VERSIONS="11 EDGE"
+
 # Set Spaceship ZSH as a prompt
 SPACESHIP_PROMPT_DEFAULT_PREFIX='\n'
 SPACESHIP_DOCKER_PREFIX=$SPACESHIP_PROMPT_DEFAULT_PREFIX
