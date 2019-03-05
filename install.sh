@@ -15,6 +15,7 @@ npm install -g \
   stylelint-scss
 
 brew install \
+  git-flow \
   ievms \
   pinentry-mac \
   rbenv
