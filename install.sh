@@ -26,6 +26,7 @@ brew tap \
 brew cask install \
   1password \
   docker \
+  imageoptim \
   iterm2-nightly \
   spectacle \
   transmit \
