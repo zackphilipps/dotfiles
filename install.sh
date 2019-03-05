@@ -16,7 +16,8 @@ npm install -g \
 
 brew install \
   ievms \
-  pinentry-mac
+  pinentry-mac \
+  rbenv
 
 brew tap \
   caskroom/cask \

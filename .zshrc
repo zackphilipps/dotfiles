@@ -96,7 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:/usr/local/sbin:$PATH";
+export PATH="$HOME/bin:/usr/local/sbin:$HOME/.rbenv/shims:$PATH";
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -111,6 +111,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export IEVMS_VERSIONS="11 EDGE"
+
+eval "$(rbenv init -)"
 
 # Set Spaceship ZSH as a prompt
 SPACESHIP_PROMPT_DEFAULT_PREFIX='\n'
