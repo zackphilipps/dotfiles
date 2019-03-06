@@ -95,7 +95,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:/usr/local/sbin:$HOME/.rbenv/shims:$PATH";
 
 # Load the shell dotfiles, and then some:
@@ -109,8 +108,6 @@ unset file;
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export IEVMS_VERSIONS="11 EDGE"
 
 eval "$(rbenv init -)"
 
