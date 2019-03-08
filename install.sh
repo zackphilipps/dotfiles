@@ -29,6 +29,7 @@ brew cask install \
   docker \
   dozer \
   dropbox \
+  gpg-suite \
   imageoptim \
   iterm2-nightly \
   rocket \
