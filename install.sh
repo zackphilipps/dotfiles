@@ -32,6 +32,7 @@ brew cask install \
   imageoptim \
   iterm2-nightly \
   rocket \
+  sourcetree \
   spectacle \
   transmit \
   vagrant \
