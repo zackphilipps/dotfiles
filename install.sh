@@ -28,8 +28,10 @@ brew cask install \
   1password \
   docker \
   dozer \
+  dropbox \
   imageoptim \
   iterm2-nightly \
+  rocket \
   spectacle \
   transmit \
   vagrant \
