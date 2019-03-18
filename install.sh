@@ -32,7 +32,6 @@ brew cask install \
   gpg-suite \
   imageoptim \
   iterm2-nightly \
-  rocket \
   sourcetree \
   spectacle \
   transmit \
