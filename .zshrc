@@ -110,6 +110,8 @@ export NVM_DIR="$HOME/.nvm"
 
 eval "$(rbenv init -)"
 
+zstyle ':completion:*:*:hosts' hosts ''
+
 # Set Spaceship ZSH as a prompt
 SPACESHIP_PROMPT_DEFAULT_PREFIX='\n'
 SPACESHIP_DOCKER_PREFIX=$SPACESHIP_PROMPT_DEFAULT_PREFIX
