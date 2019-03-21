@@ -30,6 +30,7 @@ brew cask install \
   dozer \
   dropbox \
   gpg-suite \
+  notion \
   imageoptim \
   iterm2-nightly \
   sourcetree \
