@@ -10,12 +10,14 @@ npm install -g \
   eslint \
   eslint-plugin-angular \
   eslint-plugin-react \
+  serverless \
   stylelint \
   stylelint-config-standard \
   stylelint-scss
 
 brew install \
   git-flow \
+  kubernetes-cli \
   ievms \
   pinentry-mac \
   rbenv
@@ -30,6 +32,7 @@ brew cask install \
   dozer \
   dropbox \
   gpg-suite \
+  minikube \
   notion \
   imageoptim \
   iterm2-nightly \
