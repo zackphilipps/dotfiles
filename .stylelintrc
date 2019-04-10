@@ -4,9 +4,11 @@ plugins:
 rules:
   at-rule-empty-line-before:
     - always
-    - ignore:
-      - first-nested
+    - except:
       - blockless-after-same-name-blockless
+      - first-nested
+      ignore:
+      - after-comment
   at-rule-no-unknown:
     - true
     - ignoreAtRules:
@@ -20,10 +22,16 @@ rules:
   color-no-invalid-hex: true
   declaration-block-no-duplicate-properties: true
   declaration-block-single-line-max-declarations: 0
-  declaration-empty-line-before: 'never'
   declaration-block-trailing-semicolon: always
   declaration-colon-space-after: always
   declaration-colon-space-before: never
+  declaration-empty-line-before:
+    - always
+    - except:
+      - after-declaration
+      - first-nested
+      ignore:
+      - after-comment
   function-comma-space-after: always
   function-url-quotes: never
   max-empty-lines: 5
@@ -33,7 +41,12 @@ rules:
   number-leading-zero: always
   number-no-trailing-zeros: true
   property-no-vendor-prefix: true
-  rule-empty-line-before: 'never'
+  rule-empty-line-before:
+    - always
+    - except:
+      - first-nested
+      ignore:
+      - after-comment
   selector-list-comma-newline-after: always
   selector-list-comma-space-before: never
   selector-max-id: 1
