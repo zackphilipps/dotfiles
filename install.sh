@@ -20,9 +20,8 @@ brew install \
   pinentry-mac \
   rbenv
 
-brew tap \
-  caskroom/cask \
-  caskroom/versions
+brew tap caskroom/cask
+brew tap caskroom/versions
 
 brew cask install \
   1password \
