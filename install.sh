@@ -33,7 +33,6 @@ brew cask install \
   dozer \
   dropbox \
   firefox \
-  google-chat \
   google-chrome \
   gpg-suite \
   minikube \
