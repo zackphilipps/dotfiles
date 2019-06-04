@@ -39,6 +39,7 @@ brew cask install \
   notion \
   imageoptim \
   iterm2-nightly \
+  sequel-pro \
   sourcetree \
   spectacle \
   transmit \
