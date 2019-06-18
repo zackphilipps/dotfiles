@@ -64,6 +64,10 @@
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git git-flow-completion zsh-autosuggestions zsh-syntax-highlighting)
 
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
