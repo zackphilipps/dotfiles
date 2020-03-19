@@ -10,16 +10,13 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 npm install -g \
   spaceship-prompt \
   eslint \
-  eslint-plugin-angular \
   eslint-plugin-react \
-  serverless \
   stylelint \
   stylelint-config-standard \
   stylelint-scss
 
 brew install \
   git-flow \
-  kubernetes-cli \
   ievms \
   pinentry-mac \
   rbenv
@@ -35,7 +32,6 @@ brew cask install \
   firefox \
   google-chrome \
   gpg-suite \
-  minikube \
   notion \
   imageoptim \
   iterm2-nightly \
