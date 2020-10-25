@@ -21,9 +21,6 @@ brew install \
   pinentry-mac \
   rbenv
 
-brew tap caskroom/cask
-brew tap caskroom/versions
-
 brew cask install \
   1password \
   docker \
@@ -32,6 +29,7 @@ brew cask install \
   firefox \
   google-chrome \
   gpg-suite \
+  hey \
   notion \
   imageoptim \
   iterm2-nightly \
