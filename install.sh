@@ -36,6 +36,7 @@ brew cask install \
   sequel-pro-nightly \
   sourcetree \
   spectacle \
+  spotify \
   transmit \
   vagrant \
   virtualbox \
