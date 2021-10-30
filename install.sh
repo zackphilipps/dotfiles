@@ -29,7 +29,6 @@ brew cask install \
   firefox \
   google-chrome \
   gpg-suite \
-  hey \
   notion \
   imageoptim \
   iterm2-nightly \
