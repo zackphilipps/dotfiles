@@ -16,29 +16,31 @@ npm install -g \
   stylelint-scss
 
 brew install \
+  git \
   git-flow \
   ievms \
   pinentry-mac \
   rbenv
 
-brew cask install \
+brew install --cask \
   1password \
   docker \
   dozer \
   dropbox \
   firefox \
+  github \
   google-chrome \
   gpg-suite \
   notion \
   imageoptim \
   iterm2-nightly \
   sequel-pro-nightly \
-  sourcetree \
+  # sourcetree \
   spectacle \
-  spotify \
+  # spotify \
   transmit \
   vagrant \
-  virtualbox \
+  # virtualbox \
   visual-studio-code
 
 # ievms
