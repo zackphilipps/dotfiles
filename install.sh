@@ -18,7 +18,8 @@ npm install -g \
 brew install \
   git \
   git-flow \
-  ievms \
+  gh \
+  # ievms \
   pinentry-mac \
   rbenv
 
