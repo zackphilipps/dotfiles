@@ -35,6 +35,5 @@ brew install --cask \
   notion \
   imageoptim \
   iterm2-beta \
-  spectacle \
   transmit \
   visual-studio-code
