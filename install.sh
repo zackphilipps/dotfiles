@@ -13,7 +13,7 @@ npm install -g \
   stylelint \
   stylelint-config-standard \
   stylelint-config-styled-components \
-  stylelint-scss \
+  stylelint-scss
 
 brew install \
   git \
