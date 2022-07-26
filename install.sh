@@ -32,9 +32,7 @@ brew install --cask \
   gpg-suite \
   notion \
   imageoptim \
-  sequel-pro-nightly \
   iterm2-beta \
   spectacle \
   transmit \
-  vagrant \
   visual-studio-code
