@@ -32,8 +32,8 @@ brew install --cask \
   gpg-suite \
   notion \
   imageoptim \
-  iterm2-nightly \
   sequel-pro-nightly \
+  iterm2-beta \
   spectacle \
   transmit \
   vagrant \
