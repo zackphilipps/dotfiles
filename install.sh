@@ -8,7 +8,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 npm install -g \
-  spaceship-prompt \
   eslint \
   stylelint \
   stylelint-config-standard \
@@ -20,7 +19,8 @@ brew install \
   git-flow \
   gh \
   pinentry-mac \
-  rbenv
+  rbenv \
+  starship
 
 brew install --cask \
   1password \
