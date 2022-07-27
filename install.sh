@@ -29,6 +29,7 @@ brew install --cask \
   dozer \
   dropbox \
   firefox \
+  fliqlo \
   github \
   google-chrome \
   gpg-suite \
