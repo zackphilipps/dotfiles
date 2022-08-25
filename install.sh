@@ -23,6 +23,8 @@ brew install \
   rbenv \
   starship
 
+brew tap homebrew/cask-versions homebrew/cask-fonts
+
 brew install --cask \
   1password \
   docker \
@@ -30,6 +32,7 @@ brew install --cask \
   dropbox \
   firefox \
   fliqlo \
+  font-fira-code \
   github \
   google-chrome \
   gpg-suite \
