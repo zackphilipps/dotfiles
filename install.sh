@@ -30,6 +30,7 @@ brew install --cask \
   docker \
   dozer \
   dropbox \
+  figma \
   firefox \
   fliqlo \
   font-fira-code \
