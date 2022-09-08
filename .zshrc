@@ -115,3 +115,5 @@ unset file;
 zstyle ':completion:*:*:hosts' hosts ''
 
 eval "$(starship init zsh)"
+
+autoload -U compinit; compinit
