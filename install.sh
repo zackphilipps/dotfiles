@@ -6,7 +6,17 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-brew install node
+brew install \
+  git \
+  git-flow \
+  gh \
+  pinentry-mac \
+  rbenv \
+  starship \
+  volta
+
+volta setup
+volta install node yarn
 
 npm install -g \
   eslint \
@@ -14,14 +24,6 @@ npm install -g \
   stylelint-config-standard \
   stylelint-config-styled-components \
   stylelint-scss
-
-brew install \
-  git \
-  git-flow \
-  gh \
-  pinentry-mac \
-  rbenv \
-  starship
 
 brew tap homebrew/cask-versions homebrew/cask-fonts
 
