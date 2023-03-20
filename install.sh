@@ -10,6 +10,7 @@ brew install \
   git \
   git-flow \
   gh \
+  macos-trash \
   pinentry-mac \
   rbenv \
   starship \
@@ -39,6 +40,7 @@ brew install --cask \
   github \
   google-chrome \
   gpg-suite \
+  loom \
   notion \
   imageoptim \
   iterm2-beta \
