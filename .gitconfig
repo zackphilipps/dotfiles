@@ -163,6 +163,9 @@
   followTags = true
   autoSetupRemote = true
 
+[submodule]
+  recurse = true
+
 # URL shorthands
 
 [url "git@github.com:"]
